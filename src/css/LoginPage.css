@@ -1,0 +1,71 @@
+
+/* .authbg{
+    background-image: url('https://blog-cdn.reedsy.com/directories/admin/featured_image/417/large_how-to-become-a-childrens-book-illustrator-7396c5.jpg');
+} */
+
+.regCon{
+    border-radius: 25px;
+    width: 960px; 
+    height: 600px; 
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    display: flex;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2)
+}
+.authImg{
+    background-image: url('https://us.123rf.com/450wm/syuzannam/syuzannam1902/syuzannam190200475/118193478-audiobooks-emblem-set-of-audio-book-symbols-with-lettering-vector-conceptual-illustration-.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-size: 384px 384px;
+    margin-top: 25px;
+
+}
+.authForm{
+    width: 576px;
+    height: 600px;
+
+}
+.form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.field{
+    padding: 12px;
+    width: 65%;
+    margin: 10px;
+    outline: none;
+    border-radius: 20px;    
+}
+.authForm h2{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:30px;
+    color: black;
+    text-align: center;
+}
+#submit{
+    padding: 12px 30px;
+    width: 55%;
+    margin-top: 40px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius:20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color:  #384ebb;
+}
+.authImg{
+    width: 384px;
+    height: 600px;
+}
