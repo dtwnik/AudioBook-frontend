@@ -62,7 +62,6 @@ const Header = () => {
           <li><a href="/#home" class="navitem">Басты бет</a></li>
           <li><a href="/#new" class="navitem">Жаңа топтама</a></li>
           <li><a href="/#all" class="navitem">Барлық аудиокітаптар</a></li>
-          <li><a href="/#coming" class="navitem">Ожидаемые фильмы</a></li>
         </ul>
         <ul className='ulauth'>
           {isAuth ? <div className='dropdown'>
