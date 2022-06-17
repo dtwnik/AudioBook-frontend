@@ -105,7 +105,7 @@ text{
 }
 .myticket{
     margin-top:100px;
-    min-height: 600px;
+    min-height: 90vh;
     max-width: 968px;
     margin-left: 30%;
     color: #000000;

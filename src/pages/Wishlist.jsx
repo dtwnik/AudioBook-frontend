@@ -27,6 +27,7 @@ const Wishlist = () => {
 
     return (
         <>
+        <div className="wishbody">
             <Header/>
             <div className='myticket'>
                 <h2 className="heading">Сіздің таңдаулыларыңыз </h2>
@@ -51,7 +52,7 @@ const Wishlist = () => {
                     </div>
                 )}
             </div>
-            <Footer/>
+            <Footer/></div>
         </>
     );
 }
