@@ -16,14 +16,14 @@ const LoginPage = () => {
                     { username: username, password: password }
                 )
                 console.log(data)
-                alert("Вы успешно авторизовались")
+                alert("Сіз сәтті авторизацияландыңыз")
                 localStorage.setItem("id", data.data.id)
                 localStorage.setItem("username", username)
                 localStorage.setItem("token", data.data.token)
                 navigate('/')
             }
             catch (e) {
-                alert("Имя пользователя или пароль введен неправильно")
+                alert("Пайдаланушы аты немесе құпия сөз дұрыс енгізілмеген")
             }
         }
     }
