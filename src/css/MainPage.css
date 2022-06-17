@@ -538,9 +538,12 @@ a {
 	height: 200px;
 	width: 100%;
 	background-color: grey;
-	margin-top: 100px;
 	align-items: center;
 	padding-bottom: 230px;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 .footer > ul{
 	
@@ -551,10 +554,10 @@ a {
 }
 .searchForm{
 	position: relative;
-	margin-top: 450px;
-	margin-left: 100px;
+	padding-top: 200px;
+	margin-left: 40%;
 }
-.searchForm > input{
+.searchinput{
 	width: 400px;
 	height: 50px;
 	border: none;
@@ -563,4 +566,7 @@ a {
 }
 .dip{
 	margin-left: 43%;
+}
+.input{
+	margin-top: 400px;
 }

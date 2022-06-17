@@ -1,0 +1,13 @@
+.searchcont{
+    background-color: #c8a641;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+.searchlink{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+.searchL{
+    width: 380px;
+}

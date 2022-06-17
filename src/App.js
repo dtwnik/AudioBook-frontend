@@ -11,7 +11,7 @@ function App() {
           <div>
             <Routes>
               <Route path='/' element={<MainPage/>} />
-              <Route path='/search/:params' element={<SearchPage/>} />
+              <Route path='/search/' element={<SearchPage/>} />
               <Route path='/wishlist/' element={<Wishlist/>} />
               <Route path='/register/' element={<RegisterPage/>} />
               <Route path='/login/' element={<LoginPage/>} />
