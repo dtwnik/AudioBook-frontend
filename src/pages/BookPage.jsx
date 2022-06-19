@@ -19,7 +19,6 @@ const BookPage = () => {
         });
       }, [setAppState]);
       if (!appState || appState.length === 0) return <p>Not founded</p>
-    console.log(appState.photo)
     return (
         <>
         <Header/>

@@ -11,7 +11,6 @@ const NewBook = () => {
             setNewBook(allPersons.slice(allPersons.length-4))
         });
     }, [setNewBook]);
-    console.log(newbook)
     return (
         <>
             <section className="movies" id="new">

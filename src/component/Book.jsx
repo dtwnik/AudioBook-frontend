@@ -11,7 +11,7 @@ const Book = () => {
             setBook(allPersons); 
         });
     }, [setBook]);
-    console.log(book)
+
     return (
         <>
             <section className="movies" id="all">

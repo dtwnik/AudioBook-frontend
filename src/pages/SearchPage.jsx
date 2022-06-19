@@ -12,7 +12,6 @@ const SearchPage = () => {
     const [posts, setPosts] = useState([]);
     const [searchTitle, setSearchTitle] = useState("");
     const Up = searchTitle.charAt(0).toUpperCase() + searchTitle.slice(1)
-    console.log(Up)
     useEffect(() => {
         const loadPosts = async () => {
             setLoading(true);
@@ -25,7 +24,6 @@ const SearchPage = () => {
 
         loadPosts();
     }, []);
-    console.log(searchTitle)
     return (
         <>
         <Header />

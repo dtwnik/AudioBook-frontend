@@ -15,7 +15,6 @@ const LoginPage = () => {
                     'https://kitapplay-backend.herokuapp.com/api/auth/',
                     { username: username, password: password }
                 )
-                console.log(data)
                 alert("Сіз сәтті авторизацияландыңыз")
                 localStorage.setItem("id", data.data.id)
                 localStorage.setItem("username", username)
