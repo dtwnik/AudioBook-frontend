@@ -11,7 +11,7 @@ const RegisterPage = () => {
         if (username !== "" && password !== "") {
             try {
                 const data = await axios.post(
-                    'https://kitapplay-backend.herokuapp.com/api/auth/',
+                    'https://kitapplay-backend.herokuapp.com/api/User/',
                     { username: username, password: password }
                 )
                 alert("Сіз сәтті авторизацияландыңыз")
@@ -21,7 +21,7 @@ const RegisterPage = () => {
                 navigate('/')
             }
             catch (e) {
-                alert("Пайдаланушы аты немесе құпия сөз дұрыс енгізілмеген")
+                alert("Мұндай пайдаланушы бар")
             }
         }
     }
